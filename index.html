@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Documentation</title>
+  <style>
+    * {
+      margin: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+      font-weight: bold;
+    }
+
+    body {
+      height: 100vh;
+      background: #1e1e1e;
+      color: #fff;
+    }
+
+    body::-webkit-scrollbar {
+      height: 0;
+      width: 5px;
+      background: #000;
+    }
+
+    body::-webkit-scrollbar-thumb {
+      background: #3e3e3e;
+      border-radius: 5px;
+    }
+
+    .line {
+      width: 98%;
+      padding: 5px;
+      border-radius: 10px;
+      background: #3e3e3e;
+      margin: 20px auto;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    div {
+      display: flex;
+    }
+
+    .method {
+      margin: 10px;
+      width: 100px;
+      height: calc(100% - 20px);
+      background: #1e1e1e;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+    }
+
+    .router {
+      background: #5e5e5e;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="line">
+    <div class="method router">/users</div>
+    <div>
+      <div class="method">GET</div>
+      <div class="method">POST</div>
+      <div class="method">PUT</div>
+      <div class="method">DELETE</div>
+    </div>
+  </div>
+  <div class="line">
+    <div class="method router">/blogs</div>
+    <div>
+      <div class="method">GET</div>
+      <div class="method">POST</div>
+      <div class="method">PUT</div>
+      <div class="method">DELETE</div>
+    </div>
+  </div>
+  <div class="line">
+    <div class="method router">/files</div>
+    <div>
+      <div class="method">GET</div>
+      <div class="method">POST</div>
+    </div>
+  </div>
+</body>
+
+</html>
